@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ajax tutorial</title>
+  </head>
+  <body>
+    <style>
+        .container {
+          display: flex;
+          flex-direction: row;
+          align-items:center
+        }
+        ul {
+          flex: 1;
+        }
+        table {
+          flex: 1;
+          margin-left: 20px;
+        }
+      </style>
+    <h1>hello world</h1>
+    <button id="fetchBtn">fetch</button>
+    <button id="populate">populate</button>
+    <div class="container">
+      <h1>Employee list</h1>
+      <ul id="list">
+        </ul>
+        <label for="">table</label>
+        <table id="table" border="2">
+        </table>
+      </ul>
+    </div>
+    <script src="/xhr/ajax.js"></script>
+  </body>
+</html>
